@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+    <title>YogaSequenzCreator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+
+<body>
+    <form action="#">
+        <div class="level">
+            <h2>Level</h2>
+            <input type="radio" name="level" id="beginner" value="1" >
+            <label for="beginner">Beginner</label>
+
+            <input type="radio" name="level" id="intermediate" value="2">
+            <label for="intermediate">Intermediate</label>
+
+            <input type="radio" name="level" id="advanced" value="3">
+            <label for="advanced">Advanced</label>
+        </div>
+        <div class="options">
+            <h2>Weitere Optionen</h2>
+            <input type="checkbox" name="options_ckb" id="variations" value="">
+            <label for="variations">Ohne Variationen</label>
+
+            <input type="checkbox" name="options_ckb" id="pranayama">
+            <label for="pranayama">mit Pranayama</label>
+
+            <input type="checkbox" name="options_ckb" id="meditation">
+            <label for="meditation">mit Meditation</label>
+        </div>
+        <div class="theme">
+            <h2>Theme</h2>
+            <input type="radio" name="theme" id="willpower" value="1">
+            <label for="willpower">Willpower</label>
+
+            <input type="radio" name="theme" id="warrior" value="2">
+            <label for="warrior">Warrior</label>
+
+            <input type="radio" name="theme" id="balance" value="3">
+            <label for="balance">Balance</label>
+
+            <input type="radio" name="theme" id="relax" value="4">
+            <label for="relax">Relax</label>
+
+            <input type="radio" name="theme" id="energy" value="5">
+            <label for="energy">Energy</label>
+
+            <input type="radio" name="theme" id="equilibrium" value="6">
+            <label for="equilibrium">Equilibrium</label>
+
+            <input type="radio" name="theme" id="heartopener" value="7">
+            <label for="heartopener">Heart-Opener</label>
+
+            <input type="radio" name="theme" id="hips" value="8">
+            <label for="hips">Hip-Opener</label>
+
+            <input type="radio" name="theme" id="surrender" value="9">
+            <label for="surrender">Surrender</label>
+
+            <input type="radio" name="theme" id="back" value="10">
+            <label for="back">Back</label>
+        </div>
+        <div class="duration">
+            <h2>Dauer</h2>
+                <input type="range" min="30" max="120" value="90" class="slider" id="sequence_duration" step="15">
+                <div id="sequence_duration_value">90</div>
+        </div>
+        <div id="sequence_button_div">
+            <button id="sequence_button">Create Sequence</button>
+        </div>
+    </form>
+    <button data-sequence="[]">Session 1</button>
+    <button>Session 2</button>
+    <button>Session 3</button>
+</body>
+<script src='JavaScript/view.js'></script>
+</html>

@@ -1,0 +1,410 @@
+{
+    "asanas": [
+        {
+            "id" : 1,
+            "name": "Paschimottanasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                1
+            ],
+            "fokus": [
+                2,
+                3,
+                5
+            ],
+            "locus" : 1,
+            "order": [
+                2
+            ],
+            "balance": false
+        },
+        {
+            "id" : 2,
+            "name": "Bhujangasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                2
+            ],
+            "fokus": [
+                1,
+                2,
+                4
+            ],
+            "locus" : 3,
+            "order": [
+                2
+            ],
+            "balance": false
+        },
+        {
+            "id" : 3,
+            "name": "Vrikshasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                3,
+                6
+            ],
+            "fokus": [
+                2,
+                3,
+                4
+            ],
+            "locus" : 2,
+            "order": [
+                2
+            ],
+            "balance": "legbalance"
+        },
+        {   
+            "id" : 4,
+            "name": "Sirshasana",
+            "isVariation": false,
+            "level": 2,
+            "type": [
+                3,
+                5
+            ],
+            "fokus": [
+                1,
+                3,
+                4
+            ],
+            "locus" : 1,
+            "order": [
+                2
+            ],
+            "balance": "generalbalance",
+            "variation": {
+                "ancestor": "bldwbfljw",
+                "name": "jkhjk"
+            }             
+        }, 
+        {
+            "id" : 5,
+            "name": "Trikonasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                4,
+                6,
+                3
+            ],
+            "fokus": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "locus" : 2,
+            "order": [
+                2
+            ],
+            "balance": "generalbalance"
+        }, 
+        {   
+            "id" : 6,
+            "name": "Adho-Mukha-Shvavasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                1,
+                5
+            ],
+            "fokus": [
+                1,
+                3,
+                4,
+                5
+            ],
+            "locus" : 2,
+            "order": [
+                1, 2
+            ],
+            "balance": false
+        },
+        {   
+            "id" : 7,
+            "name": "Urdva-Mukha-Shvavasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                2
+            ],
+            "fokus": [
+                1,
+                3,
+                4,
+                5
+            ],
+            "locus" : 1,
+            "order": [
+                1, 2
+            ],
+            "balance": false         
+        }, 
+        {   
+            "id" : 8,
+            "name": "Urdhva-Dhanurasana",
+            "isVariation": false,
+            "level": 2,
+            "type": [
+                2,
+                5,
+                6
+            ],
+            "fokus": [
+                1,
+                3,
+                4,
+                5
+            ],
+            "locus" : 2,
+            "order": [
+                2
+            ],
+            "balance": false        
+        }, 
+        {   
+            "id" : 9,
+            "name": "Virasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                0
+            ],
+            "fokus": [
+                2,
+                3,
+                5
+            ],
+            "locus" : 1,
+            "order": [
+                1, 2
+            ],
+            "balance": false        
+        },
+        {   
+            "id" : 10,
+            "name": "Utthita-Parsvakonasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                3,
+                4,
+                6,
+                8
+
+            ],
+            "fokus": [
+                1,
+                3,
+                4,
+                5
+            ],
+            "locus" : 2,
+            "order": [
+                2
+            ],
+            "balance": "generalbalance"             
+        },
+        {   
+            "id" : 11,
+            "name": "Anjaneyasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                2,
+                3,
+                6
+            ],
+            "fokus": [
+                1,
+                3,
+                5
+            ],
+            "locus" : 2,
+            "order": [
+                2
+            ],
+            "balance": "generalbalance"             
+        },
+        {   
+            "id" : 12,
+            "name": "Navasana",
+            "isVariation": false,
+            "level": 2,
+            "type": [
+                7
+            ],
+            "fokus": [
+                1,
+                4
+            ],
+            "locus" : 1,
+            "order": [
+                2
+            ],
+            "balance": "generalbalance"             
+        },
+        {   
+            "id" : 13,
+            "name": "Ardha-Chandrasana",
+            "isVariation": false,
+            "level": 2,
+            "type": [
+                3,
+                6,
+                7
+            ],
+            "fokus": [
+                3,
+                4
+            ],
+            "locus" : 2,
+            "order": [
+                2
+            ],
+            "balance": "legbalance"             
+        },
+        {   
+            "id" : 14,
+            "name": "Kakasana",
+            "isVariation": false,
+            "level": 2,
+            "type": [
+                3,
+                7
+            ],
+            "fokus": [
+                3,
+                4
+            ],
+            "locus" : 1,
+            "order": [
+                2
+            ],
+            "balance": "armbalance"             
+        },
+        {   
+            "id" : 15,
+            "name": "Balasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                1
+            ],
+            "fokus": [
+                2,
+                5
+            ],
+            "locus" : 2,
+            "order": [
+                1,
+                2,
+                3
+            ],
+            "balance": false             
+        },
+        {   
+            "id" : 16,
+            "name": "Marjari-Asana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                1,
+                2
+            ],
+            "fokus": [
+                2,
+                5
+            ],
+            "locus" : 1,
+            "order": [
+                1
+            ],
+            "balance": false             
+        },
+        {   
+            "id" : 17,
+            "name": "Dhanurasana",
+            "isVariation": false,
+            "level": 2,
+            "type": [
+                2,
+                6
+            ],
+            "fokus": [
+                1,
+                5
+            ],
+            "locus" : 1,
+            "order": [
+                2
+            ],
+            "balance": false             
+        },
+        {   
+            "id" : 18,
+            "name": "Virabhadrasana-I",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                2,
+                6
+            ],
+            "fokus": [
+                1,
+                3,
+                4,
+                5
+            ],
+            "locus" : 2,
+            "order": [
+                2
+            ],
+            "balance": false             
+        },
+        {   
+            "id" : 19,
+            "name": "Virabhadrasana-II",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                4,
+                6
+            ],
+            "fokus": [
+                1,
+                3,
+                4,
+                5
+            ],
+            "locus" : 2,
+            "order": [
+                2
+            ],
+            "balance": false             
+        },
+        {   
+            "id" : 20,
+            "name": "Shavasana",
+            "isVariation": false,
+            "level": 1,
+            "type": [
+                0
+            ],
+            "fokus": [
+                2
+            ],
+            "locus" : 3,
+            "order": [
+                3
+            ],
+            "balance": false             
+        }   
+    ]
+}

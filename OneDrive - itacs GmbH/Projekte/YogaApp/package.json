@@ -1,0 +1,22 @@
+{
+  "name": "yogaapp",
+  "version": "1.0.0",
+  "description": "1. schritt prozedural",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatvL/YogaAppTS.git"
+  },
+  "author": "Katrin & Christoph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatvL/YogaAppTS/issues"
+  },
+  "homepage": "https://github.com/KatvL/YogaAppTS#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
